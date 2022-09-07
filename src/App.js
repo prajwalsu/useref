@@ -1,25 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import UserefComponent from './componenets/UserefComponent';
+import ComponentOne from './componenets/ComponentOne';
+import ComponentTwo from './componenets/ComponentTwo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UserefComponent/> */}
+      <ComponentOne/>
+      <ComponentTwo/>
+
     </div>
   );
 }
 
 export default App;
+
+// if function taking function as an argument it is higher order argument
